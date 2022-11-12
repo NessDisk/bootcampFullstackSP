@@ -28,15 +28,15 @@ public class Challenge1 {
 	 static String ChainNumber(String valor) {
 			
 			Double num =  Math.random()* 10000000; 
-			int restul = (int) Math.round(num);
+			int result = (int) Math.round(num);
 			
 		if(valor == "Tipo A") 
 		{		
-			return "54"+restul;
+			return "54"+result;
 		}
 		else if(valor == "Tipo B") 
 		{
-			return "08"+restul;
+			return "08"+result;
 		}
 		
 		return "null";
