@@ -1,15 +1,20 @@
 package bootcampFullstackSP;
 
-public class GenerarCadena {
+import java.util.*;
+
+
+public class Homework1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-	 	System.out.println(CadenaDeNumeros("Tipo A")); 
-	 	System.out.println(CadenaDeNumeros("Tipo B")); 
-	}
+	 	System.out.println(ChainNumber("Tipo A")); 
+	 	System.out.println(ChainNumber("Tipo B")); 
+	 	
+	 	 List<String> ListExample = new ArrayList<String>();
+	 
 	
-	 static String CadenaDeNumeros(String valor) {
+	 static String ChainNumber(String valor) {
 			
 			Double num =  Math.random()* 10000000; 
 			int restul = (int) Math.round(num);
@@ -25,5 +30,7 @@ public class GenerarCadena {
 		
 		return "null";
 	}
+	 
+	
 
 }
