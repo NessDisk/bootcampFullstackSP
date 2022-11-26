@@ -81,7 +81,7 @@ function App() {
           </h1>
           
           <h1 className="iten-left">
-          Proyectos:
+          Proyecto:
             <br/>
            <a href="https://github.com/NessDisk/WhatsApp-clone" > whatsapp Clone </a>
             <br/>
