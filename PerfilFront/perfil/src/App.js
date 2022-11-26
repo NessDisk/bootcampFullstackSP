@@ -56,9 +56,9 @@ function App() {
             <br/>5 trabajando como programador, graduado como <span style={{color:'#c02a6b'}}>lic-</span>
             <br/><span style={{color:'#c02a6b'}}>enciado en informática y medio audiovisuales</span>.
             <br/>Actualmente soy <span style={{color:'#c02a6b'}}>desarrollador web
-            <br/>freelance desde el Front-end</span>. También se ustilizar  <span style={{color:'#c02a6b'}}> C#, Javascript </span>
-            <br/> <span style={{color:'#c02a6b'}}> y Typescript </span>. Adicional a esto tengo adicional a esto  
-            <br/> tengo experiencia como Dev-game usando Unity3D
+            <br/>freelance desde el Front-end</span>. También se ustilizar  <span style={{color:'#c02a6b'}}> C#, </span>
+            <br/> <span style={{color:'#c02a6b'}}>  Javascript y Typescript </span>. Adicional a esto tengo
+            <br/>  experiencia como Dev-game usando Unity3D
           </h1>
           <h1 className="iten-right" >
            Github📂:
