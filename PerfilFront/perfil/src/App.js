@@ -16,18 +16,18 @@ function App() {
 
         <div>
         {/* Titulo */}
-        <div class="container">
+        <div className="container">
   <svg viewBox="0 0 960 300">
     <symbol id="s-text">
-      <text text-anchor="middle" x="50%" y="80%">Reto 2</text>
+      <text textAnchor="middle" x="50%" y="80%">Reto 2</text>
     </symbol>
 
-    <g class = "g-ants">
-      <use href="#s-text" class="text-copy"></use>
-      <use href="#s-text" class="text-copy"></use>
-      <use href="#s-text" class="text-copy"></use>
-      <use href="#s-text" class="text-copy"></use>
-      <use href="#s-text" class="text-copy"></use>
+    <g className = "g-ants">
+      <use href="#s-text" className="text-copy"></use>
+      <use href="#s-text" className="text-copy"></use>
+      <use href="#s-text" className="text-copy"></use>
+      <use href="#s-text" className="text-copy"></use>
+      <use href="#s-text" className="text-copy"></use>
     </g>
   </svg>
 </div>
@@ -36,7 +36,7 @@ function App() {
         {/*nav que novega  */}
         <ul>
           <li onClick={()=>{ return window.scrollTo({ top: 460, left: 0, behavior: 'smooth'});}}>Acerca de mi</li>
-          <li onClick={()=>{ return window.scrollTo({ top: 1300, left: 0, behavior: 'smooth'});}}>Proyectos</li>
+          <li onClick={()=>{ return window.scrollTo({ top: 1200, left: 0, behavior: 'smooth'});}}>Proyectos</li>
         </ul>
 
             {/*nav que novega  */}
@@ -48,7 +48,7 @@ function App() {
           </h1>
           <h1 className="iten-right" >
               Correo✉: <br/>
-               <span HREF="otra_pagina.html" >ness.cero1@gmail.com </span>
+               <span  >ness.cero1@gmail.com </span>
           </h1>
           <h1 className="iten-left">
           Acerca de mi: <br/>
@@ -63,34 +63,34 @@ function App() {
           <h1 className="iten-right" >
            Github📂:
             <br/>
-           <a HREF= "https://github.com/NessDisk">https://github.com/NessDisk</a>
+           <a href= "https://github.com/NessDisk">https://github.com/NessDisk</a>
           </h1><h1 className="iten-left">
-          Primer proyectos:
+           Proyecto:
             <br/>
-            <a HREF="https://github.com/NessDisk/PI-Countries-main" > Banderas del mundo </a>
+            <a href="https://github.com/NessDisk/PI-Countries-main" > Banderas del mundo </a>
             <br/>
-          <img src={test} alt="Logo" className="img-style-index-left" />
+          <img src={test} alt="proyect1" className="img-style-index-left" />
           </h1>
 
           <h1 className="iten-right" >
-            proyecto:
+            Proyecto:
             <br/>
-           <a HREF="https://github.com/NessDisk/Google-clone"> Google Clone </a>
+           <a href="https://github.com/NessDisk/Google-clone"> Google Clone </a>
             <br/>
-          <img src={GClon} alt="Logo" className="img-style-index-right" />
+          <img src={GClon} alt="proyect2" className="img-style-index-right" />
           </h1>
           
           <h1 className="iten-left">
-          proyectos:
+          Proyectos:
             <br/>
-           <a HREF="https://github.com/NessDisk/WhatsApp-clone"> whatsapp Clone </a>
+           <a href="https://github.com/NessDisk/WhatsApp-clone" > whatsapp Clone </a>
             <br/>
-          <img src={GClon2} alt="Logo" className="img-style-index-left" />
+          <img src={GClon2} alt="proyect3" className="img-style-index-left" />
           </h1>
           <h1 className="iten-right" >
             Proyecto aparte demo:
             <br/>
-            <img src={Game} alt="Logo" className="img-style-index-left" />
+            <img src={Game} alt="proyect4Warning: Invalid DOM property `text-anchor`. Did you mean `textAnchor" className="img-style-index-left" />
           </h1>
         </div>
 
